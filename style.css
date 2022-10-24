@@ -1,0 +1,43 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+ background-image: linear-gradient(to top, blue, white);
+ background-attachment: fixed;
+}
+
+h1 {
+   color: red;
+   padding: 10px 5px 5px 5px;
+}
+
+.backlogin {
+   width: 450px;
+   height: 180px;
+   background-color: rgba(255, 255, 255, 0.5);
+   text-align: center;
+   margin: auto;
+   margin-top: 30vh;
+   border-radius: 10px 10px 10px 10px;
+}
+
+.backlogin input[type="email"], input[type="password"], input[type="submit"] {
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   padding-left: 10px;
+   width: 200px;
+   height: 25px;
+   border-radius: 5px 5px 5px 5px;
+   border: 0.5px solid red;
+   background: white;
+   color: red;
+}
+
+#logar {
+   margin-bottom: 10px;
+   cursor: pointer;
+}
